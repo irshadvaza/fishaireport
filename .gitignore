@@ -1,0 +1,29 @@
+# --- Secrets: never commit your real API keys ---
+.env
+
+# --- Local database (contains real submitted report data) ---
+*.db
+data/
+
+# --- Logs (can contain transcript previews) ---
+logs/
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- OS / editor junk ---
+.DS_Store
+.vscode/
+.idea/
+
+# --- Streamlit ---
+.streamlit/secrets.toml
